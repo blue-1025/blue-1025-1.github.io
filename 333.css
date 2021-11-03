@@ -1,10 +1,10 @@
 *{
-    /*
-    margin:0;
-    padding:0;
-    border:10px solid cadetblue;
-     */
 
+    /*margin:0;*/
+    /*padding:0;*/
+    /*border:10px solid cadetblue;*/
+
+list-style: none;
     box-sizing:border-box;
 
 }
@@ -16,4 +16,20 @@ img{
 
 .img-start{
     border: 5px solid cadetblue;
+}
+#img-master{
+    border: 5px solid rosybrown;
+}
+
+.relative{
+    margin-left: 35px;
+    background: antiquewhite;
+    width:500px;
+    height: 500px;
+}
+
+.adsolute{
+    background: lightsteelblue;
+    width:100px;
+    height: 100px;
 }
