@@ -1,7 +1,19 @@
 *{
+    /*
     margin:0;
     padding:0;
-    box-sizing:border-box;
-border:10px solid cadetblue;
+    border:10px solid cadetblue;
+     */
 
+    box-sizing:border-box;
+
+}
+
+img{
+    height:100px;
+    width:100px;
+}
+
+.img-start{
+    border: 5px solid cadetblue;
 }
