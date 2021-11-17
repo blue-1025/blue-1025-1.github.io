@@ -1,35 +1,39 @@
-*{
-
-    /*margin:0;*/
-    /*padding:0;*/
-    /*border:10px solid cadetblue;*/
-
-list-style: none;
-    box-sizing:border-box;
-
+.fild-card-inner{
+    position: relative;
 }
 
-img{
-    height:100px;
-    width:100px;
+.fild-card-front,
+.fild-card-back{
+    position: absolute;
 }
 
-.img-start{
-    border: 5px solid cadetblue;
-}
-#img-master{
-    border: 5px solid rosybrown;
-}
-
-.relative{
-    margin-left: 35px;
-    background: antiquewhite;
-    width:500px;
-    height: 500px;
+.fild-card-front,
+.fild-card-back,
+.fild-card-inner{
+    width:100%;
+    height:100%;
 }
 
-.adsolute{
-    background: lightsteelblue;
-    width:100px;
-    height: 100px;
+.fild-card{
+    width:300px;
+    height:300px;
+}
+
+.fild-card-front{
+    background: lightskyblue;
+    color:black;
+}
+.fild-card-back{
+    background: darkseagreen;
+    transform: rotateY(180deg);
+    color:black;
+}
+
+.fild-card-inner:hover{
+    transform:rotateY(180deg);
+}
+
+.fild-card-inner{
+    transition:transform 0.5s;
+    transform-style:preserve-3d ;
 }
